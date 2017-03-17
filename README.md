@@ -5,8 +5,13 @@ You can set up your MacBook in just a sec after you bought it.
 
 ## Required
 
+<<<<<<< HEAD
 - 'OS' Mac OS Sierra over 10.12.3 
 - 'Xcode' : You must install it from App Store, and execute 'xcode-select --install' on your terminal.
+=======
+- 'OS' : Mac OS Sierra over 10.12.3
+- 'Xcode' : You must install it from App Store, and type 'xcode-select --install' on your terminal.
+>>>>>>> a287ad6... Fix typo.
 
 ## How to install dotfiles only
 
@@ -47,4 +52,9 @@ bash ./bin/link-dotfiles.sh
 
 ## NOTE
 
+<<<<<<< HEAD
+=======
+- You must set your name and your email to 'user.name' and 'user.email' in '.gitconfig'.
+- You can set your GitHub's token to 'HOMEBREW\_GITHUB\_API\_TOKEN' in '.bash_profile'.
+>>>>>>> a287ad6... Fix typo.
 - If you are Japanese and use a US keyboard, I recommend [ei-kana](https://ei-kana.appspot.com/ "ei-kana") instead of [karabiner](https://pqrs.org/osx/karabiner/index.html.ja "karabiner").
