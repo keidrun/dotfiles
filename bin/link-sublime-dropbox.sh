@@ -6,7 +6,7 @@ PC="$TO"User/Package\ Control.sublime-settings
 
 # link Sublime Text Packages on Dropbox
 if [ ! -f "$PC" ]; then
-    echo "Error: '$PC' not installed."
+    echo "Error: '$PC' not found."
     echo "Press shift+command+P and type 'Install Package Control' on Sublime Text."
     exit 1
 fi

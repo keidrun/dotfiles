@@ -21,7 +21,7 @@ exec $SHELL -l
 echo '# anyenv settings on tmux' >> ~/.bash_profile
 echo 'for D in `ls $HOME/.anyenv/envs`' >> ~/.bash_profile
 echo 'do' >> ~/.bash_profile
-echo '    export PATH="$HOME/.anyenv/envs/$D/shims:$PATH"'  >> ~/.bash_profile 
+echo '    export PATH="$HOME/.anyenv/envs/$D/shims:$PATH"'  >> ~/.bash_profile
 echo 'done' >> ~/.bash_profile
 
 # install anyenv update

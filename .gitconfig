@@ -1,6 +1,6 @@
 [user]
-	name = Keid
-	email = kssk96@gmail.com
+	name = You
+	email = your@email.address
 [core]
 	excludesfile = /Users/sasakikeisuke/.gitignore_global
 	editor = vim -c \"set fenc=utf-8\"
