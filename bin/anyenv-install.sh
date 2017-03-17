@@ -1,19 +1,19 @@
 #!/bin/bash
 
-####################
+################################################################################
 # library
-####################
+################################################################################
 
 JENV_ADD_ALL=$(find . -name "jenv-add-all.sh")
 
-####################
-# anyenv installer
-####################
+################################################################################
+# anyenv installation
+################################################################################
 
 # install anyenv
 git clone https://github.com/riywo/anyenv ~/.anyenv
-echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.bash_profile
 echo '# anyenv' >> ~/.bash_profile
+echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(anyenv init -)"' >> ~/.bash_profile
 exec $SHELL -l
 
@@ -28,9 +28,9 @@ echo 'done' >> ~/.bash_profile
 mkdir -p $(anyenv root)/plugins
 git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anyenv-update
 
-####################
-# *env installer
-####################
+################################################################################
+# *env installation
+################################################################################
 
 # install renv
 anyenv install rbenv
@@ -60,7 +60,8 @@ echo 'alias brew="env PATH=${PATH//\/Users\/${USER}\/\.anyenv\/envs\/pyenv\/shim
 # install ndenv
 anyenv install ndenv
 exec $SHELL -l
-# install node in stable
+# install node in stable until version 8
+# TODO break version limit
 ndenv install $(ndenv install -l | grep -E '^.*[468]\..*\..*$' | tail -1)
 ndenv global $(ndenv versions | sed -e 's/(set.*//g' -e 's/ //g' -e 's/*//g' | grep -E '^.*[468]\..*\..*$' | tail -1)
 ndenv rehash
@@ -77,7 +78,7 @@ goenv rehash
 anyenv install jenv
 exec $SHELL -l
 # jenv add all java home
-bash $JENV_ADD_ALL
+bash "$JENV_ADD_ALL"
 # set java in stable
 jenv global $(jenv versions | sed -e 's/(set.*//g' -e 's/ //g' -e 's/*//g' | grep -E '^\s*[0-9]+\.[0-9]+$' | tail -1)
 jenv rehash

@@ -55,6 +55,3 @@ alias rm='trash'
 ################################################################################
 # environment
 ################################################################################
-
-# avoid 'brew doctor' errors of pyenv in anyenv
-alias brew="env PATH=${PATH//\/Users\/${USER}\/\.anyenv\/envs\/pyenv\/shims:/} brew"

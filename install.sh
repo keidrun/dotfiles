@@ -1,21 +1,22 @@
 #!/bin/bash
 
+################################################################################
+# library
+################################################################################
+
+REFRESH_DOTS=$(find . -name "refresh-dotfiles.sh")
+VIM_INSTALL=$(find . -name "vim-install-packages.sh")
+
+################################################################################
+# Installation
+################################################################################
+
 # download
 git clone https://github.com/keidrun/dotfiles
 cd dotfiles
 
-# install
-for f in .??*
-do
-    [[ "$f" == ".git" ]] && continue
-    [[ "$f" == ".DS_Store" ]] && continue
+# install dotfiles
+bash "$REFRESH_DOTS"
 
-    # dump
-    mv $f ${f/\./_}.`date "+%Y-%m-%d_%H%M%S"`
-
-    # refresh
-    cp ${f/\./_} $f
-
-    # link
-    ln -s $f ~/$f
-done
+# install vim packages
+bash "$VIM_INSTALL"
