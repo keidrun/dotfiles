@@ -6,7 +6,7 @@ You can set up your MacBook in just a sec after you bought it.
 ## Required
 
 - 'OS' : Mac OS Sierra over 10.12.3
-- 'Xcode' : You must install it from App Store, and type 'xcode-select --install' on your terminal.
+- 'Xcode' : over 8.2.1, you must install it from App Store and type 'xcode-select --install' on your terminal.
 
 ## How to install dotfiles only
 
@@ -32,7 +32,13 @@ Step2. Install [Brewfile](https://github.com/Homebrew/homebrew-bundle "Brewfile"
 bash ./bin/brew-install-bundle.sh
 ```
 
-Step3. Install [anyenv](https://github.com/riywo/anyenv "anyenv").
+Step3. Install [sdkman](https://github.com/sdkman/sdkman-cli "sdkman").
+
+```
+bash ./bin/sdk-install.sh
+```
+
+Step4. Install [anyenv](https://github.com/riywo/anyenv "anyenv").
 
 ```
 bash ./bin/anyenv-install.sh

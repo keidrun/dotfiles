@@ -83,7 +83,6 @@ cask 'google-chrome'
 cask 'firefox'
 
 # program
-cask 'java'
 cask 'r-app'
 cask 'processing'
 
