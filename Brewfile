@@ -22,6 +22,9 @@ cask 'xquartz'
 brew 'git'
 brew 'git-flow'
 
+# signature
+brew gpg
+
 # completion
 brew 'bash-completion'
 brew 'docker-machine-completion'
