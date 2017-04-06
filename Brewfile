@@ -91,6 +91,7 @@ cask 'processing'
 
 # editor and IDE
 cask 'sublime-text'
+cask 'brackets'
 cask 'atom'
 cask 'visual-studio-code'
 cask 'eclipse-ide'
@@ -102,7 +103,7 @@ cask 'rstudio'
 cask 'virtualbox'
 cask 'docker-toolbox'
 
-# design editor
+# design tool
 cask 'sketch'
 
 # cloud storage
