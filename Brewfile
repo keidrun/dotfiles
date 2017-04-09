@@ -125,7 +125,6 @@ cask 'cheatsheet'
 cask 'disk-inventory-x'
 cask 'dash'
 cask 'flash-player'
-cask 'flux'
 cask 'google-japanese-ime'
 cask 'gyazo'
 cask 'refresh-finder'
@@ -137,7 +136,6 @@ cask 'gimp'
 cask 'the-unarchiver'
 cask 'tomighty'
 cask 'xmind'
-cask 'xtrafinder'
 
 ################################################################################
 # mas install
