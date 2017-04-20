@@ -47,10 +47,14 @@ alias sbp='source ~/.bash_profile'
 
 # Homebrew
 alias j='z'
-alias s='subl' # open Sublime Text
-alias sp='subl ~/.bash_profile'
-alias sr='subl ~/.bashrc'
 alias rm='trash'
+
+# Editor
+alias s='subl' # open Sublime Text
+alias sbp='subl ~/.bash_profile'
+alias sbr='subl ~/.bashrc'
+alias b='open -g -a Brackets' # open Brackets
+alias c='code' # open Visual Studio Code
 
 ################################################################################
 # environment
