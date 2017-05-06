@@ -106,6 +106,10 @@ cask 'docker-toolbox'
 # design tool
 cask 'sketch'
 
+# debugging
+cask 'fiddler'
+cask 'wireshark'
+
 # cloud storage
 cask 'dropbox'
 
