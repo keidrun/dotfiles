@@ -98,6 +98,7 @@ cask 'eclipse-ide'
 cask 'sts'
 cask 'android-studio'
 cask 'rstudio'
+cask 'intellij-idea-ce'
 
 # virtual host
 cask 'virtualbox'
