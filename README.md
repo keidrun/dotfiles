@@ -13,7 +13,7 @@ You can set up your MacBook in just a sec after you bought it.
 Type the following command on your terminal.
 
 ```
-curl https://github.com/keidrun/dotfiles/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/keidrun/dotfiles/master/install.sh | bash
 ```
 
 After that, you need install [Homebrew](https://brew.sh/ "Homebrew"), [peco](https://github.com/peco/peco "peco"), [z](https://github.com/rupa/z "z") and [trash](http://hasseg.org/trash/ "trash") yourselef.
@@ -23,7 +23,7 @@ After that, you need install [Homebrew](https://brew.sh/ "Homebrew"), [peco](htt
 Step1. Install dotfiles.
 
 ```
-curl https://github.com/keidrun/dotfiles/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/keidrun/dotfiles/master/install.sh | bash
 ```
 
 Step2. Install [Brewfile](https://github.com/Homebrew/homebrew-bundle "Brewfile").
