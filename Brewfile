@@ -72,6 +72,9 @@ cask 'anytrans'
 # rancher
 cask 'alfred'
 
+# swither
+cask 'hyperswitch'
+
 # terminal
 cask 'iterm2'
 
