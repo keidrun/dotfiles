@@ -73,12 +73,3 @@ exec $SHELL -l
 goenv install $(goenv install --list | grep -E '^[0-9]+\.[0-9]+$' | head -1)
 goenv global $(goenv versions | sed -e 's/(set.*//g' -e 's/ //g' -e 's/*//g' | grep -E '^[0-9]+\.[0-9]+$' | tail -1)
 goenv rehash
-
-# install jenv
-anyenv install jenv
-exec $SHELL -l
-# jenv add all java home
-bash "$JENV_ADD_ALL"
-# set java in stable
-jenv global $(jenv versions | sed -e 's/(set.*//g' -e 's/ //g' -e 's/*//g' | grep -E '^\s*[0-9]+\.[0-9]+$' | tail -1)
-jenv rehash

@@ -161,3 +161,6 @@ mas 'Numbers', id: 409203825
 
 # social
 mas 'LINE', id: 539883307
+
+# design tools
+mas 'Affinity Photo', id: 824183456

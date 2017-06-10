@@ -65,5 +65,6 @@ bash ./bin/link-sublime-dropbox.sh
 ## NOTE
 
 - You must set your name and your email to 'user.name' and 'user.email' in '.gitconfig'.
+- You must set excludesfile's path to 'excludesfile' in '.gitconfig'.
 - You can set your GitHub's token to 'HOMEBREW\_GITHUB\_API\_TOKEN' in '.bash_profile'.
 - If you are Japanese and use a US keyboard, I recommend [ei-kana](https://ei-kana.appspot.com/ "ei-kana") instead of [karabiner](https://pqrs.org/osx/karabiner/index.html.ja "karabiner").
