@@ -1,12 +1,6 @@
 #!/bin/bash
 
 ################################################################################
-# library
-################################################################################
-
-JENV_ADD_ALL=$(find . -name "jenv-add-all.sh")
-
-################################################################################
 # anyenv installation
 ################################################################################
 
@@ -59,6 +53,9 @@ echo 'alias brew="env PATH=${PATH//\/Users\/${USER}\/\.anyenv\/envs\/pyenv\/shim
 
 # install ndenv
 anyenv install ndenv
+exec $SHELL -l
+# install plugins of ndenv
+git clone https://github.com/pine/ndenv-yarn-install.git "$(ndenv root)/plugins/ndenv-yarn-install"
 exec $SHELL -l
 # install node in stable until version 8
 # TODO break version limit
