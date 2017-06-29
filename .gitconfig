@@ -17,3 +17,9 @@
 	line = log --oneline --decorate
 	tree = log --graph --all --date=short --pretty='format:%C(yellow)%h%Creset %Cgreen%cd%Creset %s %Cblue(%an)%Creset %Cred%d%Creset'
 	branches = for-each-ref --sort=committerdate refs/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+	ci = commit
+	st = status
+	br = branch
+	co = checkout
+[pull]
+	rebase = true
