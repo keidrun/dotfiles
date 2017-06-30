@@ -110,7 +110,11 @@ cask 'docker-toolbox'
 # design tool
 cask 'sketch'
 
-# debugging
+# development tools
+cask 'robomongo'
+cask 'postman'
+
+# network debugging
 cask 'fiddler'
 cask 'wireshark'
 
