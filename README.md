@@ -16,7 +16,7 @@ Type the following command on your terminal.
 curl -fsSL https://raw.githubusercontent.com/keidrun/dotfiles/master/install.sh | bash
 ```
 
-After that, you need install [Homebrew](https://brew.sh/ "Homebrew"), [peco](https://github.com/peco/peco "peco"), [z](https://github.com/rupa/z "z") and [trash](http://hasseg.org/trash/ "trash") yourselef.
+After that, you need install [Homebrew](https://brew.sh/ "Homebrew"), [peco](https://github.com/peco/peco "peco"), [z](https://github.com/rupa/z "z"), [ccat](https://github.com/jingweno/ccat "ccat") and [trash](http://hasseg.org/trash/ "trash") yourselef.
 
 ## How to install all application as same as my MacBook
 

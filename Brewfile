@@ -27,7 +27,8 @@ brew gpg
 
 # completion
 brew 'bash-completion'
-brew 'docker-machine-completion'
+brew 'docker-completion'
+brew 'docker-compose-completion'
 brew 'gem-completion'
 brew 'pip-completion'
 brew 'vagrant-completion'
@@ -40,6 +41,7 @@ brew 'z'
 brew 'peco'
 brew 'trash'
 brew 'q'
+brew 'ccat'
 
 # json tools
 brew 'jsonpp'
@@ -105,7 +107,9 @@ cask 'intellij-idea-ce'
 
 # virtual host
 cask 'virtualbox'
-cask 'docker-toolbox'
+
+# container
+cask 'docker'
 
 # design tool
 cask 'sketch'

@@ -48,6 +48,7 @@ alias sbp='source ~/.bash_profile'
 # Homebrew
 alias j='z'
 alias rm='trash'
+alias cat='ccat'
 
 # Editor
 alias s='subl' # open Sublime Text
