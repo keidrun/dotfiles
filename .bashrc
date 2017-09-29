@@ -39,6 +39,7 @@ alias la='ls -a'
 alias lla='ls -la'
 #alias rm='rm -i'
 alias rd='rmdir'
+alias relogin='exec $SHELL -l'
 alias df='df -h' # display MB instead of KB
 alias f='open .' # open Finder
 alias bp='vi ~/.bash_profile'

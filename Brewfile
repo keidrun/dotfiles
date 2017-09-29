@@ -60,6 +60,13 @@ brew 'sanemat/font/ricty'
 brew 'mongodb'
 brew 'mysql'
 
+# depend on electron-packager
+brew 'wine'
+
+# deploy services
+brew 'heroku'
+brew 'aws-elasticbeanstalk'
+
 ####################
 # brew cask install
 ####################
@@ -152,6 +159,7 @@ cask 'gimp'
 cask 'the-unarchiver'
 cask 'tomighty'
 cask 'xmind'
+cask 'image2icon'
 
 ################################################################################
 # mas install
