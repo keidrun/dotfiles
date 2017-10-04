@@ -134,13 +134,16 @@ cask 'dropbox'
 
 # mobi convertor
 cask 'kindle'
-cask 'kindlepreviewer'
+cask 'kindlegen'
 cask 'calibre'
 
 # social
 cask 'evernote'
 cask 'skype'
 cask 'slack'
+
+# study
+cask 'anki'
 
 # others
 cask 'caffeine'
