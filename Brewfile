@@ -146,6 +146,7 @@ cask 'slack'
 cask 'anki'
 
 # others
+cask 'duet'
 cask 'caffeine'
 cask 'cheatsheet'
 cask 'disk-inventory-x'
