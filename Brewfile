@@ -100,6 +100,7 @@ cask 'firefox'
 # program
 cask 'r-app'
 cask 'processing'
+cask 'haskell-stack'
 
 # editor and IDE
 cask 'sublime-text'
@@ -122,7 +123,7 @@ cask 'docker'
 cask 'sketch'
 
 # development tools
-cask 'robomongo'
+cask 'robo-3t'
 cask 'postman'
 
 # network debugging
