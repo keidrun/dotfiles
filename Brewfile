@@ -121,6 +121,7 @@ cask 'docker'
 
 # design tool
 cask 'sketch'
+cask 'balsamiq-mockups'
 
 # development tools
 cask 'robo-3t'
