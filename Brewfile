@@ -113,6 +113,9 @@ cask 'android-studio'
 cask 'rstudio'
 cask 'intellij-idea-ce'
 
+# DB workbench
+cask 'mysqlworkbench'
+
 # virtual host
 cask 'virtualbox'
 
@@ -146,6 +149,9 @@ cask 'slack'
 
 # study
 cask 'anki'
+
+# openVPN
+cask 'tunnelblick'
 
 # others
 cask 'duet'
