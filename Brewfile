@@ -192,3 +192,6 @@ mas 'LINE', id: 539883307
 
 # design tools
 mas 'Affinity Photo', id: 824183456
+
+# blog tools
+mas 'MarsEdit', id: 1198319098
