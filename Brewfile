@@ -102,7 +102,7 @@ cask 'r-app'
 cask 'processing'
 cask 'haskell-stack'
 
-# editor and IDE
+# free editor and IDE
 cask 'sublime-text'
 cask 'brackets'
 cask 'atom'
@@ -111,7 +111,9 @@ cask 'eclipse-ide'
 cask 'sts'
 cask 'android-studio'
 cask 'rstudio'
-cask 'intellij-idea-ce'
+
+# paid IDE
+cask 'intellij-idea'
 
 # DB workbench
 cask 'mysqlworkbench'
