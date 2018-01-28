@@ -158,7 +158,6 @@ cask 'tunnelblick'
 # others
 cask 'duet'
 cask 'caffeine'
-cask 'cheatsheet'
 cask 'disk-inventory-x'
 cask 'dash'
 cask 'flash-player'
