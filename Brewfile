@@ -32,6 +32,9 @@ brew 'docker-compose-completion'
 brew 'gem-completion'
 brew 'pip-completion'
 brew 'vagrant-completion'
+brew 'spring-completion'
+brew 'maven-completion'
+brew 'gradle-completion'
 
 # command extension
 brew 'tree'
@@ -56,6 +59,10 @@ brew 'imagemagick'
 # font extension
 brew 'sanemat/font/ricty'
 
+# http server
+brew 'httpd'
+brew 'nginx'
+
 # DB
 brew 'mongodb'
 brew 'mysql'
@@ -65,7 +72,11 @@ brew 'wine'
 
 # deploy services
 brew 'heroku'
+brew 'awscli'
 brew 'aws-elasticbeanstalk'
+
+# DevOps
+brew 'ansible'
 
 ####################
 # brew cask install
@@ -123,6 +134,9 @@ cask 'virtualbox'
 
 # container
 cask 'docker'
+
+# DevOps
+cask 'vagrant'
 
 # design tool
 cask 'sketch'
