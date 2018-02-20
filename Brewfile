@@ -7,6 +7,7 @@ tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'sanemat/font'
+tap 'ethereum/ethereum'
 
 # cask
 brew 'cask'
@@ -77,6 +78,11 @@ brew 'aws-elasticbeanstalk'
 
 # DevOps
 brew 'ansible'
+brew 'jenkins'
+
+# Blockchain
+brew 'ethereum'
+brer 'solidity'
 
 ####################
 # brew cask install
