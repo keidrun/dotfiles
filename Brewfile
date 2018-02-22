@@ -50,6 +50,7 @@ brew 'ccat'
 # json tools
 brew 'jsonpp'
 brew 'yajl'
+brew 'jp'
 
 # terminal extension
 brew 'tmux'
