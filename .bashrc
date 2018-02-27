@@ -38,13 +38,10 @@ alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 #alias rm='rm -i'
-alias rd='rmdir'
+#alias rd='rmdir'
 alias relogin='exec $SHELL -l'
 alias df='df -h' # display MB instead of KB
 alias f='open .' # open Finder
-alias bp='vi ~/.bash_profile'
-alias br='vi ~/.bashrc'
-alias sbp='source ~/.bash_profile'
 
 # Homebrew
 alias j='z'
@@ -53,9 +50,6 @@ alias cat='ccat'
 
 # Editor
 alias s='subl' # open Sublime Text
-alias sbp='subl ~/.bash_profile'
-alias sbr='subl ~/.bashrc'
-alias b='open -g -a Brackets' # open Brackets
 alias c='code' # open Visual Studio Code
 
 ################################################################################
