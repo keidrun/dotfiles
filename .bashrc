@@ -49,7 +49,7 @@ alias rm='trash'
 alias cat='ccat'
 
 # Editor
-alias s='subl' # open Sublime Text
+#alias s='subl' # open Sublime Text
 alias c='code' # open Visual Studio Code
 
 ################################################################################

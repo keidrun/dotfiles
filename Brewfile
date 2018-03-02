@@ -72,6 +72,9 @@ brew 'mysql'
 # depend on electron-packager
 brew 'wine'
 
+# for react-native
+brew 'watchman'
+
 # deploy services
 brew 'heroku'
 brew 'awscli'
@@ -129,6 +132,7 @@ cask 'eclipse-ide'
 cask 'sts'
 cask 'android-studio'
 cask 'rstudio'
+cask 'expo-xde'
 
 # paid IDE
 cask 'intellij-idea'
