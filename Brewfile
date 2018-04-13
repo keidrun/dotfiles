@@ -86,7 +86,10 @@ brew 'jenkins'
 
 # Blockchain
 brew 'ethereum'
-brer 'solidity'
+brew 'solidity'
+
+# Protocol buffer
+brew 'clang-format'
 
 ####################
 # brew cask install
