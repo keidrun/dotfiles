@@ -46,6 +46,7 @@ brew 'peco'
 brew 'trash'
 brew 'q'
 brew 'ccat'
+brew 'telnet'
 
 # json tools
 brew 'jsonpp'
