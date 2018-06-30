@@ -69,6 +69,7 @@ brew 'nginx'
 # DB
 brew 'mongodb'
 brew 'mysql'
+brew 'postgresql'
 
 # depend on electron-packager
 brew 'wine'
@@ -80,6 +81,12 @@ brew 'watchman'
 brew 'heroku'
 brew 'awscli'
 brew 'aws-elasticbeanstalk'
+
+# Middleware
+brew 'tomcat'
+
+# driver
+brew 'geckodriver'
 
 # DevOps
 brew 'ansible'
@@ -121,6 +128,9 @@ cask 'sourcetree'
 # browser
 cask 'google-chrome'
 cask 'firefox'
+
+# driver
+cask 'chromedriver'
 
 # program
 cask 'r-app'
