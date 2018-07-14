@@ -70,6 +70,7 @@ brew 'nginx'
 brew 'mongodb'
 brew 'mysql'
 brew 'postgresql'
+brew 'redis'
 
 # depend on electron-packager
 brew 'wine'
@@ -153,6 +154,7 @@ cask 'intellij-idea'
 
 # DB workbench
 cask 'mysqlworkbench'
+cask 'pgadmin4'
 
 # virtual host
 cask 'virtualbox'
