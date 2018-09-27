@@ -22,6 +22,8 @@ cask 'xquartz'
 # git
 brew 'git'
 brew 'git-flow'
+brew 'tig'
+brwe 'hub'
 
 # signature
 brew gpg
