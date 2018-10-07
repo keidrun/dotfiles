@@ -163,6 +163,7 @@ cask 'virtualbox'
 
 # container
 cask 'docker'
+cask 'kitematic'
 
 # DevOps
 cask 'vagrant'
