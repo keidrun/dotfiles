@@ -23,10 +23,13 @@ cask 'xquartz'
 brew 'git'
 brew 'git-flow'
 brew 'tig'
+brew 'ghq'
+
+# GitHub
 brwe 'hub'
 
 # signature
-brew gpg
+brew 'gpg'
 
 # completion
 brew 'bash-completion'
@@ -139,6 +142,7 @@ cask 'chromedriver'
 cask 'r-app'
 cask 'processing'
 cask 'haskell-stack'
+cask 'anaconda'
 
 # free editor and IDE
 cask 'sublime-text'
