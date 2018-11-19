@@ -221,6 +221,7 @@ cask 'the-unarchiver'
 cask 'tomighty'
 cask 'xmind'
 cask 'image2icon'
+cask 'clipy'
 
 ################################################################################
 # mas install
