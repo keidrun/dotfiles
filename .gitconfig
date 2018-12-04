@@ -2,7 +2,7 @@
 	name = You
 	email = your@email.address
 [core]
-	excludesfile = /Users/you/.gitignore_global
+	excludesfile = $HOME/.gitignore_global
 	editor = vim -c \"set fenc=utf-8\"
 	quotepath = false
 	ignorecase = false

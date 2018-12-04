@@ -1,22 +1,15 @@
 #!/bin/bash
 
-################################################################################
-# library
-################################################################################
-
-REFRESH_DOTS=$(find . -name "refresh-dotfiles.sh")
-VIM_INSTALL=$(find . -name "vim-install-packages.sh")
-
-################################################################################
-# Installation
-################################################################################
-
 # download
 git clone https://github.com/keidrun/dotfiles
 cd dotfiles
 
+# set environments
+RESET_DOTS=$(find . -name "reset-dotfiles.sh")
+VIM_INSTALL=$(find . -name "vim-install-packages.sh")
+
 # install dotfiles
-bash "$REFRESH_DOTS"
+bash "$RESET_DOTS"
 
 # install vim packages
 bash "$VIM_INSTALL"

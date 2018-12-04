@@ -6,8 +6,11 @@
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
+tap 'homebrew/cask-fonts'
 tap 'sanemat/font'
 tap 'ethereum/ethereum'
+tap 'heroku/brew'
+tap 'cloudfoundry/tap'
 
 # cask
 brew 'cask'
@@ -26,7 +29,7 @@ brew 'tig'
 brew 'ghq'
 
 # GitHub
-brwe 'hub'
+brew 'hub'
 
 # signature
 brew 'gpg'
@@ -43,6 +46,7 @@ brew 'maven-completion'
 brew 'gradle-completion'
 
 # command extension
+brew 'vim'
 brew 'tree'
 brew 'watch'
 brew 'wget'
@@ -56,7 +60,7 @@ brew 'telnet'
 # json tools
 brew 'jsonpp'
 brew 'yajl'
-brew 'jp'
+brew 'jq'
 
 # terminal extension
 brew 'tmux'
@@ -65,7 +69,7 @@ brew 'tmux'
 brew 'imagemagick'
 
 # font extension
-brew 'sanemat/font/ricty'
+brew 'ricty'
 
 # http server
 brew 'httpd'
@@ -88,15 +92,11 @@ brew 'heroku'
 brew 'awscli'
 brew 'aws-elasticbeanstalk'
 
-# Middleware
-brew 'tomcat'
-
 # driver
 brew 'geckodriver'
 
 # DevOps
 brew 'ansible'
-brew 'jenkins'
 
 # Blockchain
 brew 'ethereum'
@@ -105,13 +105,23 @@ brew 'solidity'
 # Protocol buffer
 brew 'clang-format'
 
+# program
+brew 'haskell-stack'
+
+# Java required
+cask 'java'
+brew 'tomcat'
+
 ####################
 # brew cask install
 ####################
 
+# font
+cask 'font-ricty-diminished'
+
 # security
 cask '1password'
-cask 'avast'
+cask 'avast-security'
 
 # iTunes extension
 cask 'anytrans'
@@ -141,7 +151,6 @@ cask 'chromedriver'
 # program
 cask 'r-app'
 cask 'processing'
-cask 'haskell-stack'
 cask 'anaconda'
 
 # free editor and IDE
@@ -150,13 +159,10 @@ cask 'brackets'
 cask 'atom'
 cask 'visual-studio-code'
 cask 'eclipse-ide'
-cask 'sts'
+cask 'springtoolsuite'
 cask 'android-studio'
 cask 'rstudio'
 cask 'expo-xde'
-
-# paid IDE
-cask 'intellij-idea'
 
 # DB workbench
 cask 'mysqlworkbench'
@@ -173,7 +179,6 @@ cask 'kitematic'
 cask 'vagrant'
 
 # design tool
-cask 'sketch'
 cask 'balsamiq-mockups'
 
 # development tools
@@ -181,7 +186,6 @@ cask 'robo-3t'
 cask 'postman'
 
 # network debugging
-cask 'fiddler'
 cask 'wireshark'
 
 # cloud storage
@@ -203,6 +207,10 @@ cask 'anki'
 # openVPN
 cask 'tunnelblick'
 
+# Japanese Key Board Support
+cask 'cmd-eikana'
+cask 'karabiner'
+
 # others
 cask 'duet'
 cask 'caffeine'
@@ -211,10 +219,8 @@ cask 'dash'
 cask 'flash-player'
 cask 'google-japanese-ime'
 cask 'gyazo'
-cask 'refresh-finder'
 cask 'macs-fan-control'
 cask 'shiftit'
-cask 'karabiner'
 cask 'skitch'
 cask 'gimp'
 cask 'the-unarchiver'
@@ -222,6 +228,11 @@ cask 'tomighty'
 cask 'xmind'
 cask 'image2icon'
 cask 'clipy'
+
+# paid tools
+cask 'intellij-idea'
+cask 'marsedit'
+cask 'camtasia'
 
 ################################################################################
 # mas install
@@ -240,8 +251,6 @@ mas 'Numbers', id: 409203825
 # social
 mas 'LINE', id: 539883307
 
-# design tools
+# paid tools
 mas 'Affinity Photo', id: 824183456
-
-# blog tools
 mas 'MarsEdit', id: 1198319098

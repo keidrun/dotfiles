@@ -1,7 +1,7 @@
 #!/bin/bash
 
-FROM=~/Dropbox/Sublime/User
-TO=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+FROM=$HOME/Dropbox/SyncSettings/Sublime/User
+TO=$HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 PC="$TO"User/Package\ Control.sublime-settings
 
 # link Sublime Text Packages on Dropbox
@@ -15,7 +15,7 @@ if [ -d "$FROM" ]; then
     mv "$TO"User "$TO"User.`date "+%Y-%m-%d_%H%M%S"`
 
     # link
-    ln -s $FROM "$TO"
+    ln -s "$FROM" "$TO"
 else
     echo "'$FROM' not found."
     exit 1
