@@ -82,7 +82,7 @@ NOTE: Existing dotfiles (`.bash_profile`, `.bashrc`, `.gitconfig` and `.vimrc`) 
 On the promise that you put your settings on '~/Dropbox/SyncSettings/Sublime/User', you can sync settings after you install Sublime Text and Package Control.
 
 ```bash
-bash ./bin/link-sublime-dropbox.sh
+bash ./bin/dropbox-link-sublime3.sh
 ```
 
 NOTE: I don't longer use Sublime Text. I recommend to use Visual Studio Code instead.

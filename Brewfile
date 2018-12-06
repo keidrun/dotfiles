@@ -123,9 +123,6 @@ cask 'font-ricty-diminished'
 cask '1password'
 cask 'avast-security'
 
-# iTunes extension
-cask 'anytrans'
-
 # rancher
 cask 'alfred'
 
@@ -233,6 +230,7 @@ cask 'clipy'
 cask 'intellij-idea'
 cask 'marsedit'
 cask 'camtasia'
+#cask 'snagit'
 
 ################################################################################
 # mas install
