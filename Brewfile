@@ -249,6 +249,9 @@ mas 'Numbers', id: 409203825
 # social
 mas 'LINE', id: 539883307
 
+# useful tools
+mas 'HiddenMe', id: 467040476
+
 # paid tools
 mas 'Affinity Photo', id: 824183456
 mas 'MarsEdit', id: 1198319098
