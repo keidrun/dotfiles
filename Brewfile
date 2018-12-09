@@ -92,6 +92,10 @@ brew 'heroku'
 brew 'awscli'
 brew 'aws-elasticbeanstalk'
 
+# ci services
+brew 'travis'
+brew 'circleci'
+
 # driver
 brew 'geckodriver'
 
