@@ -99,6 +99,16 @@
   // Jest
   "jest.autoEnable": false,
   "jest.rootPath": "client",
+  // Emmet for JSX/Vue
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "html": {
+      "filters": "bem"
+    }
+  },
   // == HTML ==
   "html.format.enable": true,
   // == CSS ==
