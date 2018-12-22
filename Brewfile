@@ -186,6 +186,9 @@ cask 'balsamiq-mockups'
 cask 'robo-3t'
 cask 'postman'
 
+# android emulator
+cask 'genymotion'
+
 # network debugging
 cask 'wireshark'
 
