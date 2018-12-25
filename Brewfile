@@ -238,6 +238,7 @@ cask 'intellij-idea'
 cask 'marsedit'
 cask 'camtasia'
 #cask 'snagit'
+cask 'flume'
 
 ################################################################################
 # mas install
