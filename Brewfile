@@ -80,6 +80,7 @@ brew 'mongodb'
 brew 'mysql'
 brew 'postgresql'
 brew 'redis'
+brew 'rethinkdb'
 
 # depend on electron-packager
 brew 'wine'
