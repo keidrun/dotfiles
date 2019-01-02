@@ -11,9 +11,7 @@ tap 'sanemat/font'
 tap 'ethereum/ethereum'
 tap 'heroku/brew'
 tap 'cloudfoundry/tap'
-
-# cask
-brew 'cask'
+tap 'homebrew/cask-versions'
 
 # X11
 cask 'xquartz'
@@ -81,6 +79,17 @@ brew 'mysql'
 brew 'postgresql'
 brew 'redis'
 brew 'rethinkdb'
+brew 'influxdb'
+brew 'cassandra'
+brew 'couchdb'
+brew 'neo4j'
+
+# DB required Java8
+brew 'java8'
+brew 'hbase'
+
+# Cache
+brew 'memcached'
 
 # depend on electron-packager
 brew 'wine'
@@ -92,6 +101,7 @@ brew 'watchman'
 brew 'heroku'
 brew 'awscli'
 brew 'aws-elasticbeanstalk'
+brew 'cf'
 
 # ci services
 brew 'travis'
@@ -113,7 +123,7 @@ brew 'clang-format'
 # program
 brew 'haskell-stack'
 
-# Java required
+# Servlet Container required Java
 cask 'java'
 brew 'tomcat'
 
