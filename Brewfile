@@ -97,11 +97,12 @@ brew 'wine'
 # for react-native
 brew 'watchman'
 
-# deploy services
+# cloud services
 brew 'heroku'
 brew 'awscli'
 brew 'aws-elasticbeanstalk'
 brew 'cf'
+brew 'azure-cli'
 
 # ci services
 brew 'travis'
@@ -186,6 +187,9 @@ cask 'virtualbox'
 # container
 cask 'docker'
 cask 'kitematic'
+
+# cloud services
+cask 'google-cloud-sdk'
 
 # DevOps
 cask 'vagrant'
