@@ -54,12 +54,18 @@ relogin
 bash ./bin/anyenv-install-ruby.sh && bash ./bin/anyenv-install-python.sh && bash ./bin/anyenv-install-node.sh && bash ./bin/anyenv-install-go.sh
 ```
 
-### Step5. Set up Git and GitHub manually
+### Step5. Install some CLI tools
+
+```bash
+bash ./bin/cli-tools-install.sh
+```
+
+### Step6. Set up Git and GitHub manually
 
 - Set your name and your email to 'user.name' and 'user.email' in '.gitconfig'.
 - Set your GitHub's token to 'HOMEBREW_GITHUB_API_TOKEN' in '.bash_profile'.
 
-### Step6. Set up Visual Studio Code
+### Step7. Set up Visual Studio Code
 
 ```bash
 bash ./bin/code-setup.sh && bash ./bin/code-install-extensions.sh
