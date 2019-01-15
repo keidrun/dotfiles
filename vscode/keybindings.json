@@ -1,0 +1,43 @@
+[
+  {
+    "key": "cmd+h",
+    "command": "editor.action.startFindReplaceAction"
+  },
+  {
+    "key": "alt+cmd+f",
+    "command": "-editor.action.startFindReplaceAction"
+  },
+  {
+    "key": "shift+cmd+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "alt+cmd+s",
+    "command": "-workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+n",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.terminal.rename",
+    "when": "terminalFocus"
+  }
+]

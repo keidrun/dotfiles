@@ -1,21 +1,26 @@
 {
   // User Settings
   // == Layout ==
-  "workbench.colorTheme": "Solarized Light",
+  "workbench.colorTheme": "Noctis Azureus",
   "workbench.iconTheme": "material-icon-theme",
   // == Common ==
   "telemetry.enableCrashReporter": false,
   "editor.fontFamily": "Ricty Diminished",
   "terminal.integrated.fontFamily": "Ricty Diminished",
-  "editor.fontSize": 17,
+  "window.zoomLevel": 1,
+  "editor.fontSize": 14,
   "editor.tabSize": 2,
+  "workbench.editor.showTabs": true,
   "editor.renderWhitespace": "all",
   "editor.insertSpaces": true,
   "editor.lineNumbers": "on",
   "editor.detectIndentation": true,
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 120,
+  "editor.rulers": [
+    120
+  ],
   "editor.parameterHints.enabled": true,
   "editor.autoClosingBrackets": "always",
   "editor.autoIndent": true,
@@ -34,29 +39,32 @@
   "editor.trimAutoWhitespace": true,
   "files.trimTrailingWhitespace": true,
   "diffEditor.ignoreTrimWhitespace": true,
-  "window.zoomLevel": 0,
   "files.encoding": "utf8",
   "files.autoGuessEncoding": false,
   "files.eol": "\n",
-  "files.insertFinalNewline": true,
   "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDragAndDrop": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  // == Terminal ==
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.letterSpacing": 0,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.rightClickBehavior": "copyPaste",
+  // == Plugins ==
+  // final-newline
+  "files.insertFinalNewline": true,
   // Mark Jump
-  "markJump.maximumLimit": 4836,
+  "markJump.maximumLimit": -1,
+  // Live Server
+  "liveServer.settings.donotShowInfoMsg": true,
   // == Git==
-  // Gitlens
-  "gitlens.advanced.messages": {
-    "suppressCommitHasNoPreviousCommitWarning": false,
-    "suppressCommitNotFoundWarning": false,
-    "suppressFileNotUnderSourceControlWarning": false,
-    "suppressGitVersionWarning": false,
-    "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": false,
-    "suppressShowKeyBindingsNotice": true,
-    "suppressUpdateNotice": true,
-    "suppressWelcomeNotice": false
-  },
+  // Git Project Manager
+  "gitProjectManager.baseProjectsFolders": [
+    "$HOME/workspace"
+  ],
   // == Python ==
   "[python]": {
     "editor.tabSize": 4,
@@ -70,6 +78,7 @@
   "python.linting.pylamaEnabled": false,
   "python.linting.pylintEnabled": false,
   // == JS and Typescripts ==
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
   "typescript.validate.enable": false,
   // default format
@@ -116,17 +125,28 @@
   "css.validate": false,
   "scss.validate": true,
   "postcss.validate": true,
-  "css_peek.enable": true,
+  "css_peek.enable": false,
   // == Python==
   "python.formatting.autopep8Args": [
     "--indent-size=4"
   ],
-  "extensions.ignoreRecommendations": false,
-  "gitlens.keymap": "chorded",
-  "material-icon-theme.showUpdateMessage": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true
+  // == Golang ==
+  "[go]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false
+  },
+  "go.formatTool": "goreturns",
+  "go.formatFlags": [
+    "-w"
+  ],
+  "go.lintTool": "golint",
+  "go.lintOnSave": "package",
+  "go.vetOnSave": "package",
+  "go.buildOnSave": "package",
+  "go.testOnSave": false,
+  "go.gocodeAutoBuild": true,
+  "go.installDependenciesWhenBuilding": true,
 }
