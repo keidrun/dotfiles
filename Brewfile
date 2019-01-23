@@ -247,6 +247,7 @@ cask 'tomighty'
 cask 'xmind'
 cask 'image2icon'
 cask 'clipy'
+cask 'qlvideo'
 
 # paid tools
 cask 'intellij-idea'
