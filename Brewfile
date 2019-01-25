@@ -113,6 +113,7 @@ brew 'geckodriver'
 
 # DevOps
 brew 'ansible'
+brew 'kubernetes-cli'
 
 # Blockchain
 brew 'ethereum'
@@ -187,6 +188,7 @@ cask 'virtualbox'
 # container
 cask 'docker'
 cask 'kitematic'
+cask 'minikube'
 
 # cloud services
 cask 'google-cloud-sdk'
@@ -230,8 +232,11 @@ cask 'tunnelblick'
 cask 'cmd-eikana'
 cask 'karabiner'
 
+# media player
+cask 'qlvideo'
+cask 'vlc'
+
 # others
-cask 'duet'
 cask 'caffeine'
 cask 'disk-inventory-x'
 cask 'dash'
@@ -247,9 +252,9 @@ cask 'tomighty'
 cask 'xmind'
 cask 'image2icon'
 cask 'clipy'
-cask 'qlvideo'
 
 # paid tools
+cask 'duet'
 cask 'intellij-idea'
 cask 'marsedit'
 cask 'camtasia'
