@@ -177,6 +177,7 @@ cask 'springtoolsuite'
 cask 'android-studio'
 cask 'rstudio'
 cask 'expo-xde'
+cask 'visual-studio'
 
 # DB workbench
 cask 'mysqlworkbench'
