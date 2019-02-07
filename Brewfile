@@ -178,6 +178,7 @@ cask 'android-studio'
 cask 'rstudio'
 cask 'expo-xde'
 cask 'visual-studio'
+cask 'typora'
 
 # DB workbench
 cask 'mysqlworkbench'
