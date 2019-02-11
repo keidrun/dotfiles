@@ -254,6 +254,8 @@ cask 'tomighty'
 cask 'xmind'
 cask 'image2icon'
 cask 'clipy'
+cask 'funter'
+cask 'onyx'
 
 # paid tools
 cask 'duet'
