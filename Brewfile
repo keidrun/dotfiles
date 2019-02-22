@@ -103,6 +103,8 @@ brew 'awscli'
 brew 'aws-elasticbeanstalk'
 brew 'cf'
 brew 'azure-cli'
+brew 'wp-cli'
+brew 'wp-cli-completion'
 
 # ci services
 brew 'travis'
@@ -256,6 +258,7 @@ cask 'image2icon'
 cask 'clipy'
 cask 'funter'
 cask 'onyx'
+cask 'switchhosts'
 
 # paid tools
 cask 'duet'
@@ -264,6 +267,7 @@ cask 'marsedit'
 cask 'camtasia'
 #cask 'snagit'
 cask 'flume'
+# cask 'sketch'
 
 ################################################################################
 # mas install
