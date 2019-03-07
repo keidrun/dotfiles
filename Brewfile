@@ -3,7 +3,6 @@
 ################################################################################
 
 # tap
-tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'homebrew/cask-fonts'
@@ -181,6 +180,7 @@ cask 'rstudio'
 cask 'expo-xde'
 cask 'visual-studio'
 cask 'typora'
+cask 'adobe-acrobat-reader'
 
 # DB workbench
 cask 'mysqlworkbench'
