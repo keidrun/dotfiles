@@ -136,6 +136,7 @@ brew 'tomcat'
 
 # font
 cask 'font-ricty-diminished'
+cask 'font-fira-code'
 
 # security
 cask '1password'
@@ -259,6 +260,7 @@ cask 'clipy'
 cask 'funter'
 cask 'onyx'
 cask 'switchhosts'
+cask 'geogebra'
 
 # paid tools
 cask 'duet'
