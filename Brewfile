@@ -160,6 +160,7 @@ cask 'sourcetree'
 # browser
 cask 'google-chrome'
 cask 'firefox'
+cask 'microsoft-edge-canary'
 
 # driver
 cask 'chromedriver'
