@@ -53,6 +53,7 @@ brew 'trash'
 brew 'q'
 brew 'ccat'
 brew 'telnet'
+brew 'iproute2mac'
 
 # json tools
 brew 'jsonpp'

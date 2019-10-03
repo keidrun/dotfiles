@@ -1,13 +1,14 @@
 {
   // User Settings
   // == Layout ==
-  "workbench.colorTheme": "Noctis Azureus",
+  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
   "workbench.iconTheme": "material-icon-theme",
   // == Common ==
   "telemetry.enableCrashReporter": false,
-  "editor.fontFamily": "Ricty Diminished",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "Ricty Diminished",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 1.5,
   "editor.fontSize": 14,
   "editor.tabSize": 2,
   "workbench.editor.showTabs": true,
@@ -18,9 +19,7 @@
   "editor.minimap.enabled": false,
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 120,
-  "editor.rulers": [
-    120
-  ],
+  "editor.rulers": [120],
   "editor.parameterHints.enabled": true,
   "editor.autoClosingBrackets": "always",
   "editor.autoIndent": true,
@@ -45,6 +44,20 @@
   "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDragAndDrop": false,
   "editor.multiCursorModifier": "ctrlCmd",
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "erb",
+    "HTML (Eex)"
+  ],
   // == Terminal ==
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.letterSpacing": 0,
@@ -60,14 +73,24 @@
   "markJump.maximumLimit": -1,
   // Live Server
   "liveServer.settings.donotShowInfoMsg": true,
+  // Markdown Lint
+  "markdownlint.config": {
+    "default": true
+  },
+  // PowerMode
+  "powermode.enabled": false,
+  // SQL Tools
+  "sqltools.showStatusbar": true,
+  "sqltools.format": {
+    "indentSize": 2,
+    "reservedWordCase": "upper"
+  },
   // == Git==
   // Git Project Manager
-  "gitProjectManager.baseProjectsFolders": [
-    "$HOME/workspace"
-  ],
+  "gitProjectManager.baseProjectsFolders": ["$HOME/workspace"],
   // == Python ==
   "[python]": {
-    "editor.tabSize": 4,
+    "editor.tabSize": 4
   },
   "python.linting.enabled": true,
   "python.linting.lintOnSave": true,
@@ -79,38 +102,51 @@
   "python.linting.pylintEnabled": false,
   // == JS and Typescripts ==
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.validate.enable": true,
+  // For Flow Type
   "javascript.validate.enable": false,
-  "typescript.validate.enable": false,
   // default format
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
   "editor.formatOnType": false,
-  // prettier and eslint for javascript
+  // Prettier
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.semi": true,
   "[javascript]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.formatOnPaste": false,
-    "editor.formatOnType": false
+    "editor.formatOnType": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.formatOnPaste": false,
-    "editor.formatOnType": false
+    "editor.formatOnType": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  // eslint for prettier
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // ESlint and TSlint
   "eslint.enable": true,
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
-  // tslint for prettier
-  // "typescript.tsdk": "node_modules/typescript/lib",
   "tslint.enable": true,
   "tslint.autoFixOnSave": true,
   "tslint.alwaysShowStatus": true,
   // Jest
   "jest.autoEnable": false,
-  "jest.rootPath": "client",
+  // "jest.rootPath": "client",
   // Emmet for JSX/Vue
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
     "vue-html": "html"
   },
   "emmet.syntaxProfiles": {
@@ -119,17 +155,14 @@
     }
   },
   // == HTML ==
-  "html.format.enable": true,
+  "html.format.enable": false,
   // == CSS ==
-  // "stylelint.enable": true,
   "css.validate": false,
   "scss.validate": true,
   "postcss.validate": true,
   "css_peek.enable": false,
   // == Python==
-  "python.formatting.autopep8Args": [
-    "--indent-size=4"
-  ],
+  "python.formatting.autopep8Args": ["--indent-size=4"],
   // == Golang ==
   "[go]": {
     "editor.tabSize": 4,
@@ -139,9 +172,7 @@
     "editor.formatOnType": false
   },
   "go.formatTool": "goreturns",
-  "go.formatFlags": [
-    "-w"
-  ],
+  "go.formatFlags": ["-w"],
   "go.lintTool": "golint",
   "go.lintOnSave": "package",
   "go.vetOnSave": "package",
@@ -149,4 +180,27 @@
   "go.testOnSave": false,
   "go.gocodeAutoBuild": true,
   "go.installDependenciesWhenBuilding": true,
+  // Others
+  "git.autofetch": true,
+  "extensions.ignoreRecommendations": false,
+  "git.enableSmartCommit": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.accessibilitySupport": "off",
+  "vsicons.projectDetection.autoReload": true,
+  "workbench.activityBar.visible": false,
+  "python.jediEnabled": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotVerifyTags": true
 }
