@@ -157,6 +157,8 @@ cask 'cyberduck'
 
 # git client
 cask 'sourcetree'
+cask 'gitkraken'
+cask 'gitup'
 
 # browser
 cask 'google-chrome'

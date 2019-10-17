@@ -97,7 +97,7 @@
   "python.linting.maxNumberOfProblems": 100,
   "python.linting.flake8Enabled": true,
   "python.linting.mypyEnabled": false,
-  "python.linting.pep8Enabled": false,
+  "python.linting.pycodestyleEnabled": false,
   "python.linting.pylamaEnabled": false,
   "python.linting.pylintEnabled": false,
   // == JS and Typescripts ==
@@ -202,5 +202,10 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "liveServer.settings.donotVerifyTags": true
+  "liveServer.settings.donotVerifyTags": true,
+  "remote.SSH.allowLocalServerDownload": true,
+  "vs-kubernetes": {
+    "vs-kubernetes.helm-path": "/Users/sasakikeisuke/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+    "vs-kubernetes.draft-path": "/Users/sasakikeisuke/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+  }
 }

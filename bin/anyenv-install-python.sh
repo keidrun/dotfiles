@@ -11,5 +11,5 @@ echo 'alias brew="env PATH=${PATH//\/Users\/${USER}\/\.anyenv\/envs\/pyenv\/shim
 # setup pipenv
 pip install --upgrade pip
 pip install --user pipenv
-echo '# pipenv' >> ~/.bash_profile
-echo 'export PIPENV_VENV_IN_PROJECT=1' >> ~/.bash_profile
+echo '# pipenv' >> ~/.bashrc
+echo 'export PIPENV_VENV_IN_PROJECT=1' >> ~/.bashrc
