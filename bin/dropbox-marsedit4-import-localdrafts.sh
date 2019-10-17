@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+set -eu
 
 TARGET_DIR=LocalDrafts
 FROM=$HOME/Dropbox/SyncSettings/MarsEdit/$TARGET_DIR

@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+set -eu
 
 FROM=$HOME/Dropbox/SyncSettings/iTerm/DynamicProfiles/profiles.json
 TO=$HOME/Library/Application\ Support/iTerm2/DynamicProfiles/profiles.json

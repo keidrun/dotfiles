@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+set -eu
 
 # install sdkman
 curl -s "https://get.sdkman.io" | bash

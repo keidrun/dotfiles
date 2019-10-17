@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+set -eu
 
 # install ruby in stable
 rbenv install $(rbenv install -l | grep -v - | tail -1)

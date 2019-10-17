@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+set -eu
 
 code --install-extension 1tontech.angular-material
 code --install-extension 2gua.rainbow-brackets

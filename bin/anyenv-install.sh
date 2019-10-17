@@ -1,17 +1,18 @@
-#!/bin/bash
+#!/bin/sh
+set -eu
 
 # install anyenv
 git clone https://github.com/riywo/anyenv ~/.anyenv
-echo '# anyenv' >> ~/.bashrc
-echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(anyenv init -)"' >> ~/.bashrc
+echo '# anyenv' >> ~/.zshrc
+echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(anyenv init - zsh)"' >> ~/.zshrc
 
 # set anyenv paths for tmux
-echo '# anyenv settings on tmux' >> ~/.bashrc
-echo 'for D in `ls $HOME/.anyenv/envs`' >> ~/.bashrc
-echo 'do' >> ~/.bashrc
-echo '    export PATH="$HOME/.anyenv/envs/$D/shims:$PATH"'  >> ~/.bashrc
-echo 'done' >> ~/.bashrc
+echo '# anyenv settings on tmux' >> ~/.zshrc
+echo 'for D in `ls $HOME/.anyenv/envs`' >> ~/.zshrc
+echo 'do' >> ~/.zshrc
+echo '    export PATH="$HOME/.anyenv/envs/$D/shims:$PATH"'  >> ~/.zshrc
+echo 'done' >> ~/.zshrc
 
 # install anyenv update
 mkdir -p $(anyenv root)/plugins

@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+set -eu
 
 TARGET_DIR=User
 FROM=$HOME/Dropbox/SyncSettings/Sublime/$TARGET_DIR

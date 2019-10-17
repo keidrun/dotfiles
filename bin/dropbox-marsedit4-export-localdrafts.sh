@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+set -eu
 
 TARGET_DIR=LocalDrafts
 FROM=$HOME/Library/Group\ Containers/493CVA9A35.com.red-sweater/Library/Application\ Support/MarsEdit4/$TARGET_DIR

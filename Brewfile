@@ -31,8 +31,12 @@ brew 'hub'
 # signature
 brew 'gpg'
 
+# zsh package manager
+brew 'zplug'
+
 # completion
 brew 'bash-completion'
+brew 'zsh-completions'
 brew 'docker-completion'
 brew 'docker-compose-completion'
 brew 'gem-completion'
