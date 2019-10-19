@@ -84,6 +84,17 @@ bash ./bin/reset-dotfiles.sh && bash ./bin/vim-install-packages.sh
 
 NOTE: Existing dotfiles (`.bash_profile`, `.bashrc`, `.gitconfig` and `.vimrc`) will be moved to `backup` directory.
 
+## Optional Settings for Fish
+
+If you'd like to use `fish` instead of `zsh`, this provides next settings as follows.
+
+```bash
+fish
+fish ./bin/fisher-install.fish
+fish ./bin/fish-setup.fish
+chsh -s (which fish)
+```
+
 ## Changelog
 
 ### 1. [Deprecated] Sync Sublime Text settings on Dropbox
@@ -98,4 +109,4 @@ bash ./bin/dropbox-link-sublime3.sh
 
 ### 2. [Updated] Changed all settings for Zsh
 
-The default interactive shell became zsh on macOS Catalina so every setting was changed for zsh.
+The default interactive shell became `zsh` on macOS Catalina so every setting was changed for `zsh`.

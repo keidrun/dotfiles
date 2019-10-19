@@ -1,0 +1,1 @@
+cp ./fishfile ~/.config/fish/

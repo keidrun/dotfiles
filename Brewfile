@@ -31,6 +31,9 @@ brew 'hub'
 # signature
 brew 'gpg'
 
+# shell
+brew 'fish'
+
 # zsh package manager
 brew 'zplug'
 
@@ -53,6 +56,7 @@ brew 'watch'
 brew 'wget'
 brew 'z'
 brew 'peco'
+brew 'fzf'
 brew 'trash'
 brew 'q'
 brew 'ccat'
@@ -142,6 +146,8 @@ brew 'tomcat'
 # font
 cask 'font-ricty-diminished'
 cask 'font-fira-code'
+cask 'font-fira-mono-for-powerline'
+cask 'font-roboto-mono-for-powerline'
 
 # security
 cask '1password'
