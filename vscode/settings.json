@@ -66,6 +66,7 @@
   "terminal.integrated.cursorBlinking": false,
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.rightClickBehavior": "copyPaste",
+  "terminal.integrated.shell.osx": "/bin/zsh",
   // == Plugins ==
   // final-newline
   "files.insertFinalNewline": true,

@@ -7,7 +7,7 @@ You can set up your MacBook quickly and easily after you bought it.
 
 - OS: macOS Catalina over 10.15
 - Git installed
-- Zsh works instead of Bash
+- Not only `bash` but also `zsh` works
 
 ## How to install only dotfiles
 
@@ -63,8 +63,8 @@ bash ./bin/cli-tools-install.sh
 
 ### Step6. Set up Git and GitHub manually
 
-- Set your name and your email to 'user.name' and 'user.email' in '.gitconfig'.
-- Set your GitHub's token to 'HOMEBREW_GITHUB_API_TOKEN' in '.bash_profile'.
+- Set your name and your email to `user.name` and `user.email` in `.gitconfig`.
+- Set your GitHub's token to `HOMEBREW_GITHUB_API_TOKEN` in `.zshrc`.
 
 ### Step7. Set up Visual Studio Code
 
@@ -82,18 +82,21 @@ You can reset dotfiles and vim settings as default.
 bash ./bin/reset-dotfiles.sh && bash ./bin/vim-install-packages.sh
 ```
 
-NOTE: Existing dotfiles (`.bash_profile`, `.bashrc`, `.gitconfig` and `.vimrc`) will be moved to `backup` directory.
+NOTE: Existing dotfiles (`.zshrc`, `.bash_profile`, `.bashrc`, `.gitconfig`, `.vimrc` and so on) will be moved to `backup` directory.
 
 ## Optional Settings for Fish
 
 If you'd like to use `fish` instead of `zsh`, this provides next settings as follows.
 
 ```bash
+echo /usr/local/bin/fish | sudo tee -a /etc/shells # enable fish shell
 fish
 fish ./bin/fisher-install.fish
 fish ./bin/fish-setup.fish
-chsh -s (which fish)
+chsh -s (which fish) # change default shell to fish
 ```
+
+The above settings are not perfect so far because I use `zsh`. You also have to convert your `.zshrc` to the `config.fish`.
 
 ## Changelog
 
@@ -101,7 +104,7 @@ chsh -s (which fish)
 
 I don't longer use Sublime Text. I recommend to use Visual Studio Code instead.
 
-If you'd still like to use Sublime Text, on the promise that you put your settings on '~/Dropbox/SyncSettings/Sublime/User', you can sync settings after you install Sublime Text and Package Control.
+If you'd still like to use Sublime Text, on the promise that you put your settings on `~/Dropbox/SyncSettings/Sublime/User`, you can sync settings after you install Sublime Text and Package Control.
 
 ```bash
 bash ./bin/dropbox-link-sublime3.sh

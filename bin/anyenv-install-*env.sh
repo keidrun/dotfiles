@@ -7,8 +7,8 @@ anyenv install rbenv
 # install pyenv
 anyenv install pyenv
 
-# install ndenv
-anyenv install ndenv
+# install nodenv
+anyenv install nodenv
 
 # install goenv
 anyenv install goenv

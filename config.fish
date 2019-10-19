@@ -81,22 +81,9 @@ alias reload='source $FISH_CONF'
 # others
 ################################################################################
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-# export SDKMAN_DIR="/Users/sasakikeisuke/.sdkman"
-# [[ -s "/Users/sasakikeisuke/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/sasakikeisuke/.sdkman/bin/sdkman-init.sh"
-
 # anyenv
 set -x PATH $HOME/.anyenv/bin $PATH
 status --is-interactive; and source (anyenv init -|psub)
-
-# anyenv settings on tmux
-# for D in `ls $HOME/.anyenv/envs`
-# do
-#     set -x PATH "$HOME/.anyenv/envs/$D/shims $PATH"
-# done
-
-# avoid openssl missing error for python3.7
-# export CONFIGURE_OPTS="--with-openssl=$(brew --prefix openssl)"
 
 # pipenv
 export PIPENV_VENV_IN_PROJECT=1
@@ -113,9 +100,3 @@ set -x PATH $GOPATH/bin $PATH
 
 # TypeScript runtime
 set -x PATH $HOME/.deno/bin $PATH
-
-# avoid brew doctor errors of pyenv in anyenv
-# alias brew="env PATH=${PATH//\/Users\/${USER}\/\.anyenv\/envs\/pyenv\/shims:/} brew"
-
-# added by travis gem
-# [ -f /Users/sasakikeisuke/.travis/travis.sh ] && source /Users/sasakikeisuke/.travis/travis.sh

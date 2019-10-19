@@ -1,1 +1,2 @@
-cp ./fishfile ~/.config/fish/
+# install config for fish
+cp ./config.fish ~/.config/fish/
