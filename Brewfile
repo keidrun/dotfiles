@@ -62,6 +62,7 @@ brew 'q'
 brew 'ccat'
 brew 'telnet'
 brew 'iproute2mac'
+brew 'unar'
 
 # json tools
 brew 'jsonpp'
@@ -113,6 +114,10 @@ brew 'cf'
 brew 'azure-cli'
 brew 'wp-cli'
 brew 'wp-cli-completion'
+
+# media downloader
+brew 'ffmpeg'
+brew 'youtube-dl'
 
 # ci services
 brew 'travis'
@@ -188,12 +193,13 @@ cask 'sublime-text'
 cask 'brackets'
 cask 'atom'
 cask 'visual-studio-code'
-cask 'eclipse-ide'
+cask 'eclipse-jee'
 cask 'springtoolsuite'
 cask 'android-studio'
 cask 'rstudio'
 cask 'expo-xde'
 cask 'visual-studio'
+cask 'mono-mdk' # for visual-studio
 cask 'typora'
 cask 'adobe-acrobat-reader'
 
@@ -279,6 +285,7 @@ cask 'geogebra'
 # paid tools
 cask 'duet'
 cask 'intellij-idea'
+cask 'jetbrains-toolbox' # for intellij-idea
 cask 'marsedit'
 cask 'camtasia'
 #cask 'snagit'

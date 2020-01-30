@@ -120,7 +120,7 @@ pecossh () {
 # alias ls='ls -F -G'
 # alias ll='ls -l'
 # alias la='ls -a'
-# alias lla='ls -la'
+alias lla='ls -la'
 # alias rm='rm -i'
 # alias rd='rmdir'
 alias ...='cd ../..'
