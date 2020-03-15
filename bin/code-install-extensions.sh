@@ -50,6 +50,7 @@ code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension eamodio.gitlens
 code --install-extension eamodio.toggle-excluded-files
 code --install-extension ecmel.vscode-html-css
+code --install-extension EditorConfig.EditorConfig
 code --install-extension eg2.tslint
 code --install-extension eg2.vscode-npm-script
 code --install-extension emilast.LogFileHighlighter
@@ -160,6 +161,7 @@ code --install-extension rbbit.typescript-hero
 code --install-extension rebornix.ruby
 code --install-extension redhat.java
 code --install-extension redhat.vscode-yaml
+code --install-extension ritwickdey.live-sass
 code --install-extension ritwickdey.LiveServer
 code --install-extension robinbentley.sass-indented
 code --install-extension RoscoP.ActiveFileInStatusBar
@@ -173,6 +175,7 @@ code --install-extension sharat.vscode-brewfile
 code --install-extension shardulm94.trailing-spaces
 code --install-extension sianglim.slim
 code --install-extension SirTobi.code-clip-ring
+code --install-extension skyapps.fish-vscode
 code --install-extension skyran.js-jsx-snippets
 code --install-extension slevesque.vscode-hexdump
 code --install-extension sozercan.slack
@@ -199,6 +202,7 @@ code --install-extension vscjava.vscode-maven
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension waderyan.gitblame
 code --install-extension WallabyJs.quokka-vscode
+code --install-extension wingrunr21.vscode-ruby
 code --install-extension wmaurer.vscode-jumpy
 code --install-extension wmontalvo.vsc-meta-snippet
 code --install-extension wraith13.wandbox-vscode

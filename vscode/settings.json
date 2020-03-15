@@ -4,10 +4,11 @@
   "workbench.colorTheme": "Winter is Coming (Dark Blue)",
   "workbench.iconTheme": "material-icon-theme",
   // == Common ==
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
   "workbench.editor.showTabs": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.activityBar.visible": false,
-  "telemetry.enableCrashReporter": false,
   "terminal.integrated.fontFamily": "Ricty Diminished",
   "window.zoomLevel": 1,
   "explorer.confirmDragAndDrop": false,
@@ -207,7 +208,8 @@
     "vs-kubernetes.helm-path": "/Users/sasakikeisuke/.vs-kubernetes/tools/helm/darwin-amd64/helm",
     "vs-kubernetes.draft-path": "/Users/sasakikeisuke/.vs-kubernetes/tools/draft/darwin-amd64/draft",
     "vs-kubernetes.kubectl-path": "/Users/sasakikeisuke/.vs-kubernetes/tools/kubectl/kubectl",
-    "vs-kubernetes.minikube-path": "/Users/sasakikeisuke/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    "vs-kubernetes.minikube-path": "/Users/sasakikeisuke/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vs-kubernetes.minikube-path.mac": "/Users/sasakikeisuke/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
   },
   // Others
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",

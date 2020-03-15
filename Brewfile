@@ -128,7 +128,10 @@ brew 'geckodriver'
 
 # DevOps
 brew 'ansible'
-brew 'kubernetes-cli'
+
+# Kubernetes
+brew 'minikube'
+brew 'kubectl' # 'kubernetes-cli'と同じ
 
 # Blockchain
 brew 'ethereum'
@@ -174,6 +177,10 @@ cask 'cyberduck'
 cask 'sourcetree'
 cask 'gitkraken'
 cask 'gitup'
+cask 'fork'
+
+# git merge tool
+cask 'p4v' # p4merge
 
 # browser
 cask 'google-chrome'
@@ -213,7 +220,6 @@ cask 'virtualbox'
 # container
 cask 'docker'
 cask 'kitematic'
-cask 'minikube'
 
 # cloud services
 cask 'google-cloud-sdk'
