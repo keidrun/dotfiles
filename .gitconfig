@@ -2,18 +2,22 @@
 	name = You
 	email = your@email.address
 [core]
-	excludesfile = $HOME/.gitignore_global
+	excludesfile = /Users/you/.gitignore_global
 	editor = vim -c \"set fenc=utf-8\"
 	quotepath = false
 	ignorecase = false
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+[merge]
+    keepBackup = false
+	tool = p4merge
+[mergetool "p4merge"]
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "\"$PWD/$BASE\"" "\"$PWD/$REMOTE\"" "\"$PWD/$LOCAL\"" "\"$PWD/$MERGED\""
+	keepTemporaries = false
+	trustExitCode = false
+	keepBackup = false
 [diff]
-	tool = opendiff
+    tool = p4merge
+[difftool "p4merge"]
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "\"$REMOTE\"" "\"$LOCAL\""
 [alias]
 	line = log --oneline --decorate
 	tree = log --graph --all --date=short --pretty='format:%C(yellow)%h%Creset %Cgreen%cd%Creset %s %Cblue(%an)%Creset %Cred%d%Creset'
@@ -26,3 +30,11 @@
 	rebase = true
 [status]
 	showUntrackedFiles = all
+[commit]
+	template = /Users/you/.stCommitMsg
+[difftool "sourcetree"]
+	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+	trustExitCode = true

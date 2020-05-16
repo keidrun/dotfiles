@@ -50,6 +50,7 @@
   "files.trimTrailingWhitespace": true,
   "files.encoding": "utf8",
   "files.autoGuessEncoding": false,
+  "files.insertFinalNewline": true,
   "files.eol": "\n",
   "files.exclude": {
     "**/.classpath": true,
@@ -81,8 +82,6 @@
   "terminal.integrated.rightClickBehavior": "copyPaste",
   "terminal.integrated.shell.osx": "/bin/zsh",
   // == Plugins ==
-  // final-newline
-  "files.insertFinalNewline": true,
   // Mark Jump
   "markJump.maximumLimit": -1,
   // Live Server
