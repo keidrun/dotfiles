@@ -207,6 +207,7 @@ cask 'rstudio'
 cask 'expo-xde'
 cask 'visual-studio'
 cask 'mono-mdk' # for visual-studio
+cask 'rider'
 cask 'typora'
 cask 'adobe-acrobat-reader'
 
