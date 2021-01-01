@@ -298,6 +298,8 @@ cask 'camtasia'
 #cask 'snagit'
 cask 'flume'
 # cask 'sketch'
+cask 'spotify'
+cask 'figma'
 
 ################################################################################
 # mas install
