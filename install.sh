@@ -15,6 +15,8 @@ done
 
 # setup zsh
 cat ./.zshrc >> ~/.zshrc
+echo "# Instead of the end of ~/.zshrc for starship theme" >> ~/.zlogin
+echo 'eval "$(starship init zsh)"' >> ~/.zlogin
 
 # set environments for install
 RESET_DOTS=$(find . -name "reset-dotfiles.sh")

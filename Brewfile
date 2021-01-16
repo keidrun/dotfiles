@@ -69,6 +69,9 @@ brew 'jsonpp'
 brew 'yajl'
 brew 'jq'
 
+# terminal theme
+brew 'starship'
+
 # terminal extension
 brew 'tmux'
 
