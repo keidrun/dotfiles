@@ -271,6 +271,12 @@ cask 'karabiner'
 cask 'qlvideo'
 cask 'vlc'
 
+# logitech camera
+cask 'logitech-camera-settings'
+
+# oculus quest
+cask 'sidequest'
+
 # others
 cask 'caffeine'
 cask 'disk-inventory-x'
