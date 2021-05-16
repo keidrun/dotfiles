@@ -213,6 +213,7 @@ cask 'mono-mdk' # for visual-studio
 cask 'rider'
 cask 'typora'
 cask 'adobe-acrobat-reader'
+cask 'responsively'
 
 # DB workbench
 cask 'mysqlworkbench'
@@ -250,7 +251,6 @@ cask 'dropbox'
 # mobi convertor
 cask 'kindle'
 cask 'kindlegen'
-cask 'calibre'
 
 # social
 cask 'evernote'
