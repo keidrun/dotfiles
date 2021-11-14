@@ -265,7 +265,7 @@ cask 'tunnelblick'
 
 # Japanese Key Board Support
 cask 'cmd-eikana'
-cask 'karabiner'
+cask 'karabiner-elements'
 
 # media player
 cask 'qlvideo'
