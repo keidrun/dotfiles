@@ -161,7 +161,6 @@ cask 'font-fira-mono-for-powerline'
 cask 'font-roboto-mono-for-powerline'
 
 # security
-cask '1password'
 cask 'avast-security'
 
 # rancher
@@ -316,6 +315,9 @@ cask 'figma'
 
 # developer tool
 mas 'Xcode', id: 497799835
+
+# password manager
+mas 'Bitwarden', id: 1352778147
 
 # apple product
 mas 'GarageBand', id: 682658836
