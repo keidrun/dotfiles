@@ -171,6 +171,7 @@ cask 'hyperswitch'
 
 # terminal
 cask 'iterm2'
+cask 'go2shell'
 
 # SFTP
 cask 'cyberduck'
@@ -278,11 +279,10 @@ cask 'sidequest'
 
 # others
 cask 'caffeine'
-cask 'disk-inventory-x'
+cask 'baobab'
 cask 'dash'
 cask 'flash-player'
 cask 'google-japanese-ime'
-cask 'gyazo'
 cask 'macs-fan-control'
 cask 'shiftit'
 cask 'skitch'
@@ -296,7 +296,6 @@ cask 'funter'
 cask 'onyx'
 cask 'switchhosts'
 cask 'geogebra'
-cask 'spyder'
 
 # paid tools
 cask 'duet'
@@ -332,6 +331,7 @@ mas 'LINE', id: 539883307
 
 # useful tools
 mas 'HiddenMe', id: 467040476
+mas 'Amphetamine', id: 937984704
 
 # paid tools
 mas 'Affinity Photo', id: 824183456
