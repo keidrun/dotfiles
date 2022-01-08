@@ -296,6 +296,7 @@ cask 'funter'
 cask 'onyx'
 cask 'switchhosts'
 cask 'geogebra'
+cask 'spyder'
 
 # paid tools
 cask 'duet'
