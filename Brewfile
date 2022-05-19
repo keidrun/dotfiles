@@ -32,7 +32,7 @@ brew 'hub'
 brew 'gpg'
 
 # shell
-brew 'fish'
+brew 'fish'
 
 # zsh package manager
 brew 'zplug'
@@ -63,6 +63,7 @@ brew 'ccat'
 brew 'telnet'
 brew 'iproute2mac'
 brew 'unar'
+brew 'bat'
 
 # json tools
 brew 'jsonpp'
@@ -81,27 +82,8 @@ brew 'imagemagick'
 # font extension
 brew 'ricty'
 
-# http server
-brew 'httpd'
-brew 'nginx'
-
-# DB
-brew 'mongodb'
-brew 'mysql'
-brew 'postgresql'
-brew 'redis'
-brew 'rethinkdb'
-brew 'influxdb'
-brew 'cassandra'
-brew 'couchdb'
-brew 'neo4j'
-
-# DB required Java8
-brew 'java8'
-brew 'hbase'
-
-# Cache
-brew 'memcached'
+# virtual host
+brew 'hyperkit'
 
 # depend on electron-packager
 brew 'wine'
@@ -134,7 +116,7 @@ brew 'ansible'
 
 # Kubernetes
 brew 'minikube'
-brew 'kubectl' # 'kubernetes-cli'と同じ
+brew 'kubernetes-cli'
 
 # Blockchain
 brew 'ethereum'
@@ -145,6 +127,13 @@ brew 'clang-format'
 
 # program
 brew 'haskell-stack'
+
+# DB client
+brew 'mysql'
+brew 'postgres'
+
+# DB version control
+brew 'liquibase'
 
 # Servlet Container required Java
 cask 'java'
