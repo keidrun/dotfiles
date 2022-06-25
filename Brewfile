@@ -99,6 +99,7 @@ brew 'cf'
 brew 'azure-cli'
 brew 'wp-cli'
 brew 'wp-cli-completion'
+brew 'doctl'
 
 # media downloader
 brew 'ffmpeg'
@@ -131,6 +132,9 @@ brew 'haskell-stack'
 # DB client
 brew 'mysql'
 brew 'postgres'
+
+# DB GUI client
+brew 'dbeaver-community'
 
 # DB version control
 brew 'liquibase'
@@ -188,25 +192,18 @@ cask 'processing'
 cask 'anaconda'
 
 # free editor and IDE
-cask 'sublime-text'
-cask 'brackets'
-cask 'atom'
 cask 'visual-studio-code'
-cask 'eclipse-jee'
-cask 'springtoolsuite'
-cask 'android-studio'
 cask 'rstudio'
 cask 'expo-xde'
-cask 'visual-studio'
-cask 'mono-mdk' # for visual-studio
-cask 'rider'
 cask 'typora'
 cask 'adobe-acrobat-reader'
 cask 'responsively'
+cask 'remix-ide'
 
-# DB workbench
+# DB IDE
 cask 'mysqlworkbench'
 cask 'pgadmin4'
+cask 'dynobase'
 
 # virtual host
 cask 'virtualbox'
