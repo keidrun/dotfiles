@@ -204,6 +204,7 @@ cask 'remix-ide'
 cask 'mysqlworkbench'
 cask 'pgadmin4'
 cask 'dynobase'
+cask 'robo-3t'
 
 # virtual host
 cask 'virtualbox'
@@ -221,9 +222,9 @@ cask 'vagrant'
 # design tool
 cask 'balsamiq-mockups'
 
-# development tools
-cask 'robo-3t'
+# api clients
 cask 'postman'
+cask 'insomnia'
 
 # android emulator
 cask 'genymotion'
